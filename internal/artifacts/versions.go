@@ -56,7 +56,7 @@ func (m *Manager) fetchTalosVersions() (any, error) {
 		}
 
 		if len(version.Pre) > 0 {
-			if version.Pre[0].VersionStr == "jfroy" {
+			if version.Pre[0].VersionStr == "skylab" {
 				return true
 			}
 
