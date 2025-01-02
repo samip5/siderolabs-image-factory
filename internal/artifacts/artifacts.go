@@ -50,9 +50,9 @@ const FetchTimeout = 20 * time.Minute
 
 // Various images.
 const (
-	InstallerImage         = "jfroy/siderolabs/installer"
-	ImagerImage            = "jfroy/siderolabs/imager"
-	ExtensionManifestImage = "jfroy/siderolabs/extensions"
+	InstallerImage         = "samip5/siderolabs/installer"
+	ImagerImage            = "samip5/siderolabs/imager"
+	ExtensionManifestImage = "samip5/siderolabs/extensions"
 	OverlayManifestImage   = "siderolabs/overlays"
 )
 
